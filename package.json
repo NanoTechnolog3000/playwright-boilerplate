@@ -1,9 +1,12 @@
 {
-  "name": "playwright-examples",
-  "version": "0.0.1",
-  "description": "This repo is used to demonstrate various testing scenarios with [Playwright](https://playwright.dev/) 🎭 with node.js",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "@playwright/test": "^1.45.0"
-  }
+	"name": "playwright-boilerplate",
+	"version": "0.0.1",
+	"description": "This repo is used to demonstrate various testing scenarios with [Playwright](https://playwright.dev/) 🎭 with node.js",
+	"license": "Apache-2.0",
+	"scripts": {
+		"test": "npx playwright test --headed"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.56.1"
+	}
 }
